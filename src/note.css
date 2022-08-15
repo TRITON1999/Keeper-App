@@ -1,0 +1,9 @@
+.note{
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 0px 2px rgb(143, 143, 143);
+    min-width: 300px;
+    background-color: white;
+    
+}

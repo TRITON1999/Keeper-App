@@ -1,0 +1,11 @@
+body{
+    margin: 0;
+}
+.footer{
+    position: relative;
+    top: 70vh;
+    font-size: 1rem;
+    font-weight: bold;
+    font-family: sans-serif;
+    color: rgb(77, 77, 77);
+}
