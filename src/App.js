@@ -1,17 +1,14 @@
-import React from "react"
-import Header from "./header"
-import Footer from "./footer"
-import Note from "./note"
-import "./App.css"
-
+import React from "react";
+import Footer from "./components/Footer";
+import Header from "./components/Header";
+import Note from "./components/Note";
+import datas from "./components/data";
 function App() {
   return (
     <div className="App">
-      <Header></Header>
-      <div className="nodes">
-      <Note></Note>
-      </div>
-      <Footer></Footer>
+      <Header />
+      {datas.map((p)=><Note key={p.key} title={p.title} content={p.content}/>)}
+      <Footer />
     </div>
   );
 }
