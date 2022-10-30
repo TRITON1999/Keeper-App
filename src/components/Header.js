@@ -1,9 +1,15 @@
-import React from "react"
+import React from "react";
+import WbIncandescentIcon from "@material-ui/icons/WbIncandescent";
 
-const Header = ()=>{
-    return <header>
-    <h1>Keeper </h1>
-     </header>
-}
+const Header = () => {
+  return (
+    <header>
+      <h1>
+        <WbIncandescentIcon />
+        Keeper{" "}
+      </h1>
+    </header>
+  );
+};
 
-export default Header
+export default Header;
